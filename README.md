@@ -1,4 +1,4 @@
-# HLPO: Hierarchical-Latency-Performance-Optimization (Project HLPO)
+# HLPO (Project HLPO)
 ## Project Verification Reports / 项目技术验证报告
 
 > **Status**: Technical Preview (MVP Verified)
@@ -9,7 +9,7 @@
 
 ### 1. 简介 (Introduction)
 
-本仓库包含 **HLPO (High-Performance Large-scale Probability Optimization)** 架构的完整技术验证数据与分析报告。
+本仓库包含 HLPO架构 的完整技术验证数据与分析报告。
 
 HLPO 是一种下一代注意力机制，旨在通过引入**动态上下文权重 (Dynamic Contextual Weights)** 与 **全局稀疏门控 (Global Sparse Gating)**，解决传统 Transformer 在长序列处理中的效率瓶颈与幻觉问题。本仓库中的数据详细记录了该架构从理论模拟走向原生实现的全过程验证。
 
