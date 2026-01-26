@@ -26,8 +26,6 @@ HLPO 是一种下一代注意力机制，旨在通过引入**动态上下文权�
 *   **🧠 7B 大模型微调 (7B LLM Finetuning)**
     *   记录了 Mistral-7B 在引入**系统约束 (System Constraints)** 后的适应性训练过程 (Loss 3.72 -> 2.35)。
 
-详细索引请查阅: [HLPO_Test_Index.md](HLPO_Test_Index.md)
-
 ### 3. 版权与许可声明 (License & Copyright)
 
 ⚠️ **重要声明 (IMPORTANT NOTICE)**
