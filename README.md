@@ -1,4 +1,4 @@
-# HLPO: Physics-Informed Sparse Attention 
+# HLPO
 
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 ![Status: Verified](https://img.shields.io/badge/Status-Verified-success)
@@ -20,15 +20,27 @@ HLPO 是一场从算法到硅片的全栈架构重构，旨在证明 **“暗硅
 
 ## 📂 Repository Architecture / 仓库架构
 
-This repository contains the complete technical evidence chain (Report 2), proving the feasibility of HLPO across the entire computing stack.
-本仓库包含完整的技术证据链 (Report 2)，验证了 HLPO 在全计算栈上的可行性。
+This repository documents the evolution of HLPO from initial feasibility (Report 1) to full-stack realization (Report 2).
+本仓库记录了 HLPO 从早期可行性 (Report 1) 到全栈实现 (Report 2) 的演进过程。
+
+### 🔹 Phase 2: Full-Stack Verification (Current)
+> **Directory**: [`HLPO_Report_2/`](./)
+> *The complete evidence chain: Algorithm -> Software -> Hardware -> Silicon.*
 
 | Level | Component | Key Validation (核心验证) | Key Metric (核心指标) |
 | :--- | :--- | :--- | :--- |
-| **L1: Algorithm** | **A/B Test** & **7B Finetunes** | Verified on Mistral-7B (System Constraints) | **Loss 3.72 -> 2.35** (Finetuning) |
-| **L2: Software** | **Triton Kernel** | Context > 4K Long-Sequence Benchmark | **2.56x Speedup** (vs FlashAttn) |
-| **L3: Hardware** | **Native Inference** | Weight-based Gating on Python/MPS | **5.26x Speedup** (End-to-End) |
+| **L1: Algorithm** | **A/B Test** | Verified on Proxy Model (100M Tokens) | **Loss Gap 0.08** (50% Sparsity) |
+| **L2: Software** | **Triton Kernel** | Context > 4K Long-Sequence | **2.56x Speedup** (vs FlashAttn) |
+| **L3: Hardware** | **CUDA Native** | Tensor Core (WMMA) Integration | **2.00ms Latency** (vs 10.89ms) |
 | **L4: Silicon** | **HPU RTL** | Dedicated Accelerator Power Analysis | **>99% Energy Saving** (Dark Silicon) |
+
+### 🔹 Phase 1: Foundation & Feasibility
+> **Directory**: [`HLPO Report/`]
+> *Early prototypes on Apple M1/M2 silicon & 7B Model Finetuning.*
+
+- **Native Inference**: 5.26x Speedup on M2 Ultra (Python/MPS). (M2 Ultra 原生加速)
+- **7B Finetuning**: Mistral-7B adaptation (Loss 3.72 -> 2.35). (7B 模型微调验证)
+- **Precision**: 98.43% Cosine Similarity to Dense Baseline. (98.43% 精度对齐)
 
 ---
 
