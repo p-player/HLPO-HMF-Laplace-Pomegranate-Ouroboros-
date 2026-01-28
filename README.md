@@ -1,6 +1,6 @@
 # HLPO: Physics-Informed Sparse Attention | 全息低渗透率优化**
 
-![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red)
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 ![Status: Verified](https://img.shields.io/badge/Status-Verified-success)
 ![Platform: CUDA/RTL](https://img.shields.io/badge/Platform-CUDA%20%7C%20RTL-blue)
 
@@ -76,5 +76,6 @@ All assets in this repository have passed strict security audits:
 
 ---
 
-**© 2026 HLPO Architecture Team. All Rights Reserved.**
-*Proprietary & Confidential - For Technical Review Only.*
+**© 2026 HLPO Architecture Team.**
+This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+*本作品采用知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议进行许可。*
