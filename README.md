@@ -1,4 +1,4 @@
-# HLPO: Physics-Informed Sparse Attention | 全息低渗透率优化**
+# HLPO: Physics-Informed Sparse Attention 
 
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 ![Status: Verified](https://img.shields.io/badge/Status-Verified-success)
